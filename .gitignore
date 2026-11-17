@@ -1,0 +1,88 @@
+# ---------- OS junk ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# ---------- Secrets (never commit these) ----------
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---------- Node / JavaScript ----------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ---------- Java ----------
+*.class
+*.jar
+out/
+target/
+
+# ---------- C / C++ ----------
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# ---------- R ----------
+.Rhistory
+.RData
+.Rproj.user/
+
+# ---------- LaTeX ----------
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# ---------- Logs, temp, backups ----------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ---------- Large data / archives (remove a line if you want it tracked) ----------
+*.zip
+*.tar.gz
+*.rar
+*.7z
